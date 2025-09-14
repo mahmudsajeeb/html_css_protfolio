@@ -21,6 +21,13 @@
     border-radius:5px;
     font-size: 20px;
 }
+
+.bg {
+    background-color: #FFF8F3;
+}
+
+
+
 .header{
     background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
@@ -71,3 +78,65 @@ nav ul li a {
 .banner-img{
     width: 580px;
 }
+
+/* .main section about  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 40px;
+    padding: 150px 130px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 10px;
+    font-weight: bold;
+    color: #474747;
+}
+.section-description{
+    font-size: 18px;
+    color: #474747;
+}
+
+ /* About section  */
+
+ .item-title{
+    font-size: 18px;
+    color: #474747;
+ }
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .item-description{
+    color: #181818;
+    font-weight: bold;
+ }
+
+  /* work section  */
+   
+ .work-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+ }   
+.work-description{
+    text-align: center;
+
+}
+
+ /* skill section  */
+
+ .skills{
+    display: flex;  
+    gap: 10px;
+    
+ }
+ .skill{ 
+    box-shadow: 10px 10px 30px rgb(238, 236, 236);   
+    padding: 40px;
+    border-radius: 5px;
+ }
